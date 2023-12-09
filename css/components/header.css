@@ -23,8 +23,9 @@
 
 .line {
 	height: 10px;
-	width: 25rem;
+	width: 20rem;
 	background-color: var(--title_primary);
 	border-radius: 10px;
 }
+
 

@@ -30,6 +30,19 @@ body{
 	color: var(--subtitle_primary);
 	text-align: center;
 	margin: 2rem 0rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.h2_context_title_video{
+	color: var(--subtitle_primary);
+	text-align: center;
+	margin: 2rem 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
 
 h2{
@@ -66,14 +79,22 @@ h3{
 	color: var(--subtitle_primary);
 	text-align: center;
 	margin: 2rem 0rem;
-	width: ;
 }
 
 
 @media (max-width:1143px){
-	.subtitle_primary h2{
-		margin: 0 2rem;
+	.line{
+		width: 200px;
 	}
 }
+
+@media (max-width: 918px){
+	.h1_primary h1{
+		font-size: 90px;
+	}
+}
+
+
+
 
 
